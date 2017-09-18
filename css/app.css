@@ -1,0 +1,33 @@
+.slider {
+  margin-bottom: -10px;
+}
+
+.slider img {
+	height: 100%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+  width: 100%;
+}
+
+.tab-item {
+	max-height: 85px;
+}
+
+.news-icon {
+	height: 64px;
+	width: auto;
+}
+
+.content-padded {
+  margin: 30px 15px 15px;
+}
+
+.newsletter-text {
+	margin-top: -20px;
+}
+
+.pic {
+	height: 64px;
+	width: auto;
+}
