@@ -15,12 +15,6 @@
   width: 100%;
 }
 
-/*
-.tab-item {
-	max-height: 100px;
-}
-*/
-
 .news-icon {
 	height: 64px;
 	width: 64px;
@@ -37,4 +31,24 @@
 .pic {
 	height: 64px;
 	width: auto;
+}
+
+.error {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	visibility: hidden;
+}
+
+@media (min-width: 800px) {
+
+	body {
+		visibility: hidden;
+	}
+
+	.error {
+		visibility: visible;
+	}
+
 }
